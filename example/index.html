@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body ng-app="Demo" ng-controller="TestCtrl">
+
+<div id="main" style="height:400px" echarts="option"></div>
+<script src="http://echarts.baidu.com/build/echarts-plain.js"></script>
+<script src="http://apps.bdimg.com/libs/angular.js/1.2.16/angular.min.js"></script>
+<script src="../angualr-echarts.js"></script>
+<script>
+    angular.module('Demo', ['angualr.echarts'])
+            .controller('TestCtrl', ['$scope', function ($scope) {
+                $scope.option = {
+                    tooltip: {
+                        show: true
+                    },
+                    legend: {
+                        data: ['销量']
+                    },
+                    xAxis: [
+                        {
+                            type: 'category',
+                            data: ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
+                        }
+                    ],
+                    yAxis: [
+                        {
+                            type: 'value'
+                        }
+                    ],
+                    series: [
+                        {
+                            "name": "销量",
+                            "type": "bar",
+                            "data": [5, 20, 40, 10, 10, 20]
+                        }
+                    ]
+                };
+            }]);
+</script>
+</body>
+</html>
+
+
+

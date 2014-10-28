@@ -1,0 +1,27 @@
+{
+  "name": "angular-echarts",
+  "version": "1.0.0",
+  "description": "angular-echarts",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/violet-day/angular-echarts"
+  },
+  "author": "Nemo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/violet-day/angular-echarts/issues"
+  },
+  "homepage": "https://github.com/violet-day/angular-echarts",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-config": "^0.14.0",
+    "load-grunt-tasks": "^0.6.0"
+  }
+}
