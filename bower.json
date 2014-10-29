@@ -1,6 +1,6 @@
 {
   "name": "angular-echarts",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/violet-day/angular-echarts",
   "authors": [
     "violet-day <violet_day@live.com>"
@@ -18,7 +18,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "1.2.2",
+    "angular": "*",
     "echarts":"2.0.0"
   }
 }

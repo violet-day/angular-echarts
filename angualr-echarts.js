@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2014/10/28.
  */
-angular.module('angualr.echarts', [])
+angular.module('ngEcharts', [])
     .factory('$echartsConfig', [function () {
         return {}
     }])
