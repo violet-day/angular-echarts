@@ -18,6 +18,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "1.2.2"
+    "angular": "1.2.2",
+    "echarts":"2.0.0"
   }
 }
