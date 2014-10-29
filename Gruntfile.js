@@ -29,7 +29,5 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.registerTask('default', ['ngtemplates', 'concat', 'uglify']);
-  grunt.registerTask('test', 'mochaTest');
-  grunt.registerTask('doc', ['loopback_sdk_angular', 'ngdocs']);
+  grunt.registerTask('default', ['uglify']);
 };
